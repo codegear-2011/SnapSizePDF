@@ -1,0 +1,6 @@
+{
+  "name": "PDF Maker & Compressor",
+  "description": "Create, auto-crop, and compress PDF documents from captured photos with custom target file sizes.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
