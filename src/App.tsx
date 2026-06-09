@@ -24,7 +24,7 @@ export default function App() {
   // Compression Tuning states
   const [compressionSettings, setCompressionSettings] = useState<CompressionSettings>({
     enabled: true,
-    targetSize: 250,
+    targetSize: 200,
     unit: 'KB',
   });
   const [isCompiling, setIsCompiling] = useState<boolean>(false);
@@ -196,9 +196,9 @@ export default function App() {
           </div>
           <div>
             <h1 className="text-base md:text-lg font-bold tracking-tight text-white flex items-center gap-1.5">
-              PDF Maker & Compressor
+              SnapSizePDF
               <span className="text-[9px] font-mono uppercase bg-emerald-500/10 text-emerald-400 px-1.5 py-0.5 rounded border border-emerald-500/20">
-                Studio
+                By Code Gear P.V.T L.T.D
               </span>
             </h1>
             <p className="text-xs text-slate-400">Scan, auto-crop boundaries, and compress pages with exact file size limits.</p>
